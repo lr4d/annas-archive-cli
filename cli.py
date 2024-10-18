@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S conda run -n annas python
 import argparse
 import tempfile
 import os

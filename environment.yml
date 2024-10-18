@@ -1,0 +1,13 @@
+name: annas
+channels:
+  - conda-forge
+dependencies:
+  - bs4
+  - lxml
+  - tqdm
+  # Required for libtorrent
+  - python[version='>=3.10,<3.11']
+  - requests
+  - pip
+  - pip:
+      - libtorrent
